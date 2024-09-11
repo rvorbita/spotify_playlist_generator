@@ -21,7 +21,8 @@ song_names = [ song.get_text().strip() for song in content_tag ]
 
 
 SPOTIFY_ID = "Get the ID from Spotify Developer ID"
-SPOTIFY_SECRET= "Get the SECRET from Spotify Developer SECRET"
+SPOTIFY_SECRET = "Get the SECRET from Spotify Developer SECRET"
+SPOTIFY_USERNAME = "Provide your Spotify username"
 
 #API CREDS 
 token = (SPOTIFY_ID, SPOTIFY_SECRET)
@@ -34,7 +35,7 @@ auth_manager = SpotifyOAuth(
         client_secret=token[1],
         show_dialog=True,
         cache_path="token.txt",
-        username="raymart7",
+        username=SPOTIFY_USERNAME,
         )
 
 sp = spotipy.Spotify(auth_manager=auth_manager) #API Authentication
