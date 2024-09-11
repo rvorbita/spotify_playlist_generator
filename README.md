@@ -1,4 +1,5 @@
-#Spotify playlist generators
+![image](https://github.com/user-attachments/assets/ba72f399-05ca-4867-8263-befa130c6f6a) Spotify playlist generator  
+
 
 Spotify playlist generators is a script tool that use Beautifulsoup and Spotify API to create personalized playlists based on your listening habits or specific preferences.
 
