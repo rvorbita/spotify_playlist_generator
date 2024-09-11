@@ -20,8 +20,8 @@ content_tag = soup.select("li ul li h3")
 song_names = [ song.get_text().strip() for song in content_tag ]
 
 
-SPOTIFY_ID = "a9b33bb7d02442ae80d3f318e731e010"
-SPOTIFY_SECRET= "6ab5df62a78b4e8aba0f07a0a00e0165"
+SPOTIFY_ID = "Get the ID from Spotify Developer ID"
+SPOTIFY_SECRET= "Get the SECRET from Spotify Developer SECRET"
 
 #API CREDS 
 token = (SPOTIFY_ID, SPOTIFY_SECRET)
